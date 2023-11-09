@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
@@ -10,12 +11,17 @@ public class Usuarios extends JFrame {
     private JTextField nombreText;
     private JButton ingresarBoton;
     private JButton consultarBoton;
+    private JTable tablaRegistros;
     private JList lista;
     Connection conexion;
     PreparedStatement preparar;
+    String[] datos = {"id","nombre", "rol"};
+    String[] registros = new String[10];
+    DefaultTableModel modeloTabla = new DefaultTableModel(null, datos);
     DefaultListModel modelo = new DefaultListModel();
     Statement traer;
     ResultSet resultado;
+
 
     public Usuarios() {
         consultarBoton.addActionListener(new ActionListener() {
@@ -41,22 +47,30 @@ public class Usuarios extends JFrame {
         });
     }
 
-    public void conectar(){
+    public Connection conectar(){
         try{
             conexion = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/usuario327","root","1234");
         } catch (SQLException e) {
             throw new RuntimeException();
         }
+        return conexion;
     }
     void consultar() throws SQLException {
         conectar();
-        lista.setModel(modelo);
+        tablaRegistros.setModel(modeloTabla);
         traer = conexion.createStatement();
         resultado = traer.executeQuery("Select id, nombre, rol from usuarios");
-        modelo.removeAllElements();
+        //modelo.removeAllElements();
+        //while (resultado.next()){
+        //    modelo.addElement(resultado.getString(1) + " || " + resultado.getString(2) + " || " + resultado.getString(3));
+        //}
+
         while (resultado.next()){
-            modelo.addElement(resultado.getString(1) + " || " + resultado.getString(2) + " || " + resultado.getString(3));
-        }
+               registros[0] = resultado.getString("id");
+               registros[1] = resultado.getString("nombre");
+               registros[2] = resultado.getString("rol");
+               modeloTabla.addRow(registros);
+           }
     }
     void ingresar() throws SQLException {
         conectar();
@@ -75,7 +89,7 @@ public class Usuarios extends JFrame {
         }
     }
 
-    public static void main(String[] args) {
+  public void mostrarVentanaUsuario() {
         Usuarios usuario1 = new Usuarios();
         usuario1.setContentPane(new Usuarios().panel);
         usuario1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

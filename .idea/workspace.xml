@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53f96b7f-72cc-4550-8ca3-7965f4ef8b55" name="Default Changelist" comment="" />
+    <list default="true" id="53f96b7f-72cc-4550-8ca3-7965f4ef8b55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Login.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/fondo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/icon2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.crud327/Usuarios$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.crud327/Usuarios$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.crud327/Usuarios$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.crud327/Usuarios$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.crud327/Usuarios.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.crud327/Usuarios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Usuarios.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Usuarios.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Usuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Usuarios.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,7 +29,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2XX1VkSDrGzcrcEPopAd04Ulww3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,7 +46,51 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Formularios" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Home\IdeaProjects\com.crud327\src\imagenes" />
+      <recent name="C:\Users\Home\IdeaProjects\com.crud327\src" />
+      <recent name="C:\Users\Home\IdeaProjects\com.crud327\src\Formularios" />
+      <recent name="C:\Users\Home\IdeaProjects\com.crud327\src\Conexión" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Login">
+    <configuration name="Administradores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Formularios.Administradores" />
+      <module name="com.crud327" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Formularios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Login" />
+      <module name="com.crud327" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Usuarios (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Conexión.Usuarios" />
+      <module name="com.crud327" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Conexión.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Usuarios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Usuarios" />
       <module name="com.crud327" />
@@ -35,9 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Validar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Formularios.Validar" />
+      <module name="com.crud327" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Formularios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Login" />
         <item itemvalue="Application.Usuarios" />
+        <item itemvalue="Application.Administradores" />
+        <item itemvalue="Application.Validar" />
+        <item itemvalue="Application.Usuarios (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -67,44 +147,58 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1698934830801">
+    <state x="275" y="21" key="#Project_Structure" timestamp="1699479695330">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1699479695330" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1699538961386">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1920.-312.1920.1080@0.0.1366.728" timestamp="1698934830801" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-312.1920.1080@0.0.1366.728" timestamp="1699538961386" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1699484708209" />
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1699535999583">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1366.728/1366.-312.1920.1080@0.0.1366.728" timestamp="1699535999583" />
     <state x="464" y="196" key="FileChooserDialogImpl" timestamp="1698932593253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="464" y="196" key="FileChooserDialogImpl/0.0.1366.728/-1920.-312.1920.1080@0.0.1366.728" timestamp="1698932593253" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1698762632472" />
-    <state width="1322" height="2" key="GridCell.Tab.0.bottom" timestamp="1698935253543">
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom" timestamp="1699539237681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-312.1920.1080@0.0.1366.728" timestamp="1698935253543" />
-    <state width="1322" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1698764154820" />
-    <state width="1322" height="2" key="GridCell.Tab.0.center" timestamp="1698935253542">
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-312.1920.1080@0.0.1366.728" timestamp="1698938403784" />
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-312.1920.1080@0.0.1366.728" timestamp="1699539237681" />
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1699486358363" />
+    <state width="1322" height="2" key="GridCell.Tab.0.center" timestamp="1699539237681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="2" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-312.1920.1080@0.0.1366.728" timestamp="1698935253542" />
-    <state width="1322" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1698764154820" />
-    <state width="1322" height="2" key="GridCell.Tab.0.left" timestamp="1698935253542">
+    <state width="1322" height="2" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-312.1920.1080@0.0.1366.728" timestamp="1698938403784" />
+    <state width="1322" height="2" key="GridCell.Tab.0.center/0.0.1366.728/1366.-312.1920.1080@0.0.1366.728" timestamp="1699539237681" />
+    <state width="1322" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1699486358363" />
+    <state width="1322" height="2" key="GridCell.Tab.0.left" timestamp="1699539237681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="2" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-312.1920.1080@0.0.1366.728" timestamp="1698935253542" />
-    <state width="1322" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1698764154820" />
-    <state width="1322" height="2" key="GridCell.Tab.0.right" timestamp="1698935253542">
+    <state width="1322" height="2" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-312.1920.1080@0.0.1366.728" timestamp="1698938403784" />
+    <state width="1322" height="2" key="GridCell.Tab.0.left/0.0.1366.728/1366.-312.1920.1080@0.0.1366.728" timestamp="1699539237681" />
+    <state width="1322" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1699486358363" />
+    <state width="1322" height="2" key="GridCell.Tab.0.right" timestamp="1699539237681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="2" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-312.1920.1080@0.0.1366.728" timestamp="1698935253542" />
-    <state width="1322" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1698764154820" />
+    <state width="1322" height="2" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-312.1920.1080@0.0.1366.728" timestamp="1698938403784" />
+    <state width="1322" height="2" key="GridCell.Tab.0.right/0.0.1366.728/1366.-312.1920.1080@0.0.1366.728" timestamp="1699539237681" />
+    <state width="1322" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1699486358363" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1698932596730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728/-1920.-312.1920.1080@0.0.1366.728" timestamp="1698932596730" />
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1698762636901" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1698882846532">
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1699057986162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1698882846532" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1699057986162" />
     <state x="65" y="0" key="new project wizard" timestamp="1698883029713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
